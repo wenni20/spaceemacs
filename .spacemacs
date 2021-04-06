@@ -53,7 +53,9 @@ This function should only modify configuration layer settings."
      ;; spell-checking
      ;; syntax-checking
      ;; version-control
-     (go :variables go-backend 'lsp)
+     (go :variables
+         go-backend 'lsp
+         go-tab-width 4)
      (php :variables php-backend 'lsp)
      treemacs)
 
